@@ -1,28 +1,68 @@
-## Hi there 👋
+# 👋 Hi, I'm Saito — Data Analytics & ETL Engineer (in progress)
 
-## 📚 Portfolio
+未整備データの整形・正規化・構造設計を得意とする  
+Data Analytics / ETL エンジニア志向 のアナリストです。
+金融・不動産領域で培ったドメイン理解 × 定量分析 × 構造化思考を強みに、  
+“属人化した業務を仕組み化する” データ基盤寄りのキャリアを目指しています。
 
-### 🔹 Hotel Supply & Demand ETL (Python × ETL × 時系列整形)
-https://github.com/Sana-data-analyst/hotel-supply-demand-etl
+---
 
-- 観光庁データを正規化して時系列縦持ちに変換
-- 年度ごとのExcel構造差異を吸収するETLパイプライン
-- 需給指標の計算（需要×供給のモデル構築）
+## 🔧 Tech Stack
+- Language: Python (pandas / numpy), SQL  
+- BI / Visualization**: Power BI  
+- ETL / Data Handling**: pandas, openpyxl, 正規化・縦持ち変換・欠損処理  
+- Tools: Google Colab, GitHub, Notion  
+- Domain Knowledge: 不動産（鑑定 / REIT分析）、マーケット
 
-### 🔹 Power BI Dashboard (coming soon)
-### 🔹 Financial Metrics Analysis (coming soon)
-### 🔹 DS/DA small tasks (coming soon)
-<!--
-**saito-structural-data/saito-structural-data** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 📊 Portfolio Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔹 1. Hotel Demand & Supply ETL  
+観光庁「宿泊旅行統計」を用いた  
+日本のホテル需給分析のためのデータ整形・分析基盤構築プロジェクト。
+
+▷ Repo: https://github.com/saito-structural-data/hotel-supply-demand-etl
+
+
+■ 内容（ETL / データ基盤寄り）
+- 年度ごとに形式が異なる未整備の Excel データを自動整形  
+- 横持ち → 縦持ちへ正規化（pref_code × yyyymm）  
+- 年号（平成 / 令和）→ 西暦変換ロジックの実装  
+- 都道府県 × 月次 × 宿泊者数 × 稼働率 × 施設数 のマスター生成  
+- Python によるクレンジング・型変換・整形処理を一貫実装
+
+■ 特徴
+- “雑データを分析可能な形まで引き上げる” 能力を可視化  
+- データ基盤寄りの志望にフィット  
+- 不動産ドメイン（需給・稼働率分析）× ETL の強みが統合されている
+
+---
+
+### 🔹 2. Other Projects（準備中）
+- Power BI を用いた KPI 可視化
+- Python による時系列分析・特徴量設計
+- 不動産データ × 金融データのクロス分析
+- Kaggle / SIGNATE コンペのログ
+
+※随時追加予定
+
+---
+
+## 🎯 Career Direction
+
+- 70%：データ基盤・ETL・モデリング
+  - データモデリング
+  - ETL / パイプライン設計
+  - SQL 最適化  
+  - データ品質管理
+
+- 30%：分析（不動産 × 金融ドメイン）
+  - 市場データ
+  - 不動産アセット分析  
+  - 運用会社・AMのデータ整備
+
+“データで業務を構造化する人材”  
+“ドメイン理解 × 技術の橋渡し役” を目指しています。
+
+---
