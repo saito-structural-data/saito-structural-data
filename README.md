@@ -1,6 +1,7 @@
 # 👋 Hi, I'm Saito — Data Analytics & ETL Engineer (in progress)
 
 未整備データの整形・正規化・構造設計を得意とする  Data Analytics / ETL エンジニア志向 のアナリストです。
+
 金融・不動産領域で培ったドメイン理解 × 定量分析 × 構造化思考を強みに、  “属人化した業務を仕組み化する” データ基盤寄りのキャリアを目指しています。
 
 ---
