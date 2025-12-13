@@ -38,9 +38,6 @@
 ---
 
 ### 🔹 2. Other Projects（準備中）
-- Power BI を用いた KPI 可視化
-- Python による時系列分析・特徴量設計
-- 不動産データ × 金融データのクロス分析
 - Kaggle / SIGNATE コンペのログ
 
 ※随時追加予定
