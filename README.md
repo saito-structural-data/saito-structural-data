@@ -38,7 +38,6 @@
 ---
 
 ### 🔹 2. Other Projects（準備中）
-- Kaggle / SIGNATE コンペのログ
 
 ※随時追加予定
 
