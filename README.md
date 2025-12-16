@@ -11,7 +11,7 @@
 - BI / Visualization: Power BI  
 - ETL / Data Handling: pandas, openpyxl, 正規化・縦持ち変換・欠損処理  
 - Tools: Google Colab, GitHub, Notion  
-- Domain Knowledge: 不動産（鑑定 / REIT分析）、マーケット
+- Domain Knowledge: 不動産（鑑定 / REIT分析）、金融マーケット
 
 ---
 
