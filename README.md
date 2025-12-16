@@ -24,7 +24,7 @@
 ▷ Repo: https://github.com/saito-structural-data/hotel-supply-demand-etl
 
 
-■ 内容（ETL / データ基盤寄り）
+■ 内容
 - 年度ごとに形式が異なる未整備の Excel データを自動整形  
 - 横持ち → 縦持ちへ正規化（pref_code × yyyymm）  
 - 年号（平成 / 令和）→ 西暦変換ロジックの実装  
