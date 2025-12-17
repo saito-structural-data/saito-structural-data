@@ -19,14 +19,14 @@
 
 ### 🔹 1. Hotel Demand & Supply ETL  
 国土交通省観光庁「宿泊旅行統計」を用いた  
-日本のホテル需給分析のためのデータ整形・分析基盤構築プロジェクト。
+日本のホテル需給分析のためのデータ整形・分析基盤構築・データ分析、可視化プロジェクト。
 
 ▷ Repo: https://github.com/saito-structural-data/hotel-supply-demand-etl
-
+▷ Qiita(分析結果・技術面での工夫): https://github.com/saito-structural-data/hotel-supply-demand-etl
 
 ■ 内容
-- 年度ごとに形式が異なる未整備の Excel データを自動整形  
-- 横持ち → 縦持ちへ正規化（pref_code × yyyymm）  
+- 年度ごとに形式が異なる非整形の Excel データを自動整形  
+- 横持ち → 縦持ちへ正規化
 - 年号（平成 / 令和）→ 西暦変換ロジックの実装  
 - 都道府県 × 月次 × 宿泊者数 × 稼働率 × 施設数 のマスター生成  
 - Python によるクレンジング・型変換・整形処理・分析・可視化を一貫実装
