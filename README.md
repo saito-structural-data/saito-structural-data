@@ -1,62 +1,44 @@
-# 👋 Hi, I'm Saito — Data Analytics & ETL Engineer (in progress)
+# 👋 Hi, I'm Saito
 
-未整備データの整形・正規化・構造設計を得意とする  Data Analytics / ETL エンジニア志向 のアナリストです。
+未整備・非構造化データを  
+**分析・意思決定に使える形へ整形・構造化すること**を強みとするデータ分析／ETL系人材です。
 
-金融・不動産領域で培ったドメイン理解 × 定量分析 × 構造化思考を強みに、  “属人化した業務を仕組み化する” データ基盤寄りのキャリアを目指しています。
-
----
-
-## 🔧 Tech Stack
-- Language: Python (pandas / numpy), SQL  
-- BI / Visualization: Power BI  
-- ETL / Data Handling: pandas, openpyxl, 正規化・縦持ち変換・欠損処理  
-- Tools: Google Colab, GitHub, Notion  
-- Domain Knowledge: 不動産（鑑定 / REIT分析）、金融マーケット
+Pythonを用いたデータ整形・正規化・集計・可視化までを一貫して実装しています。
 
 ---
 
-## 📊 Portfolio Projects
+## 🔧 技術スタック（要約）
 
-### 🔹 1. 都道府県別 宿泊市場回復度の構造分析
-国土交通省観光庁「宿泊旅行統計」を用いた  
-日本のホテル需給分析のためのデータ整形・分析基盤構築・データ分析、可視化プロジェクト。
-
-▷ Repo: https://github.com/saito-structural-data/hotel-supply-demand-etl
-▷ Qiita(分析結果・技術面での工夫): https://github.com/saito-structural-data/hotel-supply-demand-etl
-
-■ 内容
-- 年度ごとに形式が異なる非整形の Excel データを自動整形  
-- 横持ち → 縦持ちへ正規化
-- 年号（平成 / 令和）→ 西暦変換ロジックの実装  
-- 都道府県 × 月次 × 宿泊者数 × 稼働率 × 施設数 のマスター生成  
-- Python によるクレンジング・型変換・整形処理・分析・可視化を一貫実装
-
-■ 特徴
-- “雑データを分析可能な形まで引き上げる” 能力を可視化  
-- 不動産ドメイン（需給・稼働率分析）× ETL の強みが統合されている
+- **言語**：Python（pandas / NumPy）、SQL  
+- **データ処理**：非整形Excel処理、縦持ち正規化、欠損処理、型変換  
+- **可視化 / BI**：Power BI、Plotly  
+- **環境**：Google Colab、GitHub  
+- **ドメイン**：不動産・金融データ
 
 ---
 
-### 🔹 2. Other Projects（準備中）
+## 📊 ポートフォリオ一覧
 
-※随時追加予定
+### 🔹 宿泊市場データ ETL・構造分析（不動産 × 公的統計）
 
----
+**概要**  
+国土交通省「宿泊旅行統計調査」を用い、  
+コロナ禍前後の宿泊市場回復度を **都道府県別に構造分析**。
 
-## 🎯 Career Direction
+**このプロジェクトで分かること**
+- 非整形な公的統計を **自動ETLで分析可能な形に変換できるか**
+- 年度差・和暦混在・表記揺れを **コードで吸収できるか**
+- ドメイン理解を踏まえた **指標設計・構造解釈ができるか**
 
-- 70%：データ基盤・ETL・モデリング
-  - データモデリング
-  - ETL / パイプライン設計
-  - SQL 最適化  
-  - データ品質管理
-
-- 30%：分析（不動産 × 金融ドメイン）
-  - 市場データ
-  - 不動産アセット分析  
-  - 運用会社・AMのデータ整備
-
-“データで業務を構造化する人材”  
-“ドメイン理解 × 技術の橋渡し役” を目指しています。
+**リンク**
+- Repo（コード・Notebook）  
+  https://github.com/saito-structural-data/hotel-supply-demand-etl
+- 解説記事（分析結果・設計思想）  
+  https://qiita.com/mnmnmnmn0110/private/866d29ac5a43bb090220
 
 ---
+
+## 📌 Notes
+
+- GitHubでは **再現性・設計・コード**を重視しています  
+- 分析結果の詳細な解釈は Qiita 記事側に記載しています
