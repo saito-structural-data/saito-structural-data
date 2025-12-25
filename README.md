@@ -41,7 +41,7 @@
 **リンク**
 - Repo（コード・Notebook）  
   https://github.com/saito-structural-data/hotel-supply-demand-etl
-- 解説記事（分析結果・設計思想）  
+- 解説記事（分析結果・設計プロセス）  
   https://qiita.com/mnmnmnmn0110/private/866d29ac5a43bb090220
 
 ---
