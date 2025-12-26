@@ -18,7 +18,7 @@
 - **言語**：Python（pandas / NumPy）、SQL  
 - **データ処理**：非整形Excel処理、縦持ち正規化、欠損処理、型変換  
 - **可視化 / BI**：Power BI、Plotly  
-- **環境**：Google Colab、GitHub  
+- **環境**：Google Colab、VSCode  
 - **ドメイン知識**：不動産・金融・財務
 
 ---
